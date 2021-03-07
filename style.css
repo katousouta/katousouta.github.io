@@ -76,8 +76,7 @@ a {
 .info img {
     float: left;
     height: 180px;
-    position: relative;
-    top: -45px;
+    margin-top: -45px;
 }
 
 .contents {
