@@ -1,0 +1,162 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 28px 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.top {
+    background-color: #ccffff;
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+}
+
+.top-logo {
+    display: inline;
+    float: left;
+    padding: 15px 40px;
+    margin-right: 300px;
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+
+
+.recommended {
+    background-image: url(https://publicdomainq.net/images/201712/27s/publicdomainq-0017205wsp.jpg);
+    background-size: cover;
+    height: 375px;
+    width: 100%;
+    color: white;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.recommended h1 {
+    font-size: 35px;
+    padding-top: 80px;
+}
+
+.recommended p {
+    font-size: 18px;
+    padding-top: 80px;
+}
+
+.info {
+    background-color: #ccffff;
+    height: 240px;
+}
+
+.info h2 {
+    padding: 40px 0 20px 0;
+}
+
+.info img {
+    float: left;
+    height: 180px;
+}
+
+.contents {
+    background-color: #ccffff;
+}
+
+.contents h2 {
+    padding: 40px 0 20px 0;
+}
+
+.content {
+    width: 33%;
+    float: left;
+}
+
+.content p {
+    text-align: left;
+    padding: 10px 10px 10px 25px;
+}
+
+.content img {
+    width: 240px;
+    height: 150px;
+    position: relative;
+    left: 90px;
+}
+
+.content-name {
+    text-align: center;
+}
+
+.contact {
+    background-color: #ccffff;
+    height: 400px;
+}
+
+.contact h2 {
+    padding: 40px 0 20px 0;
+}
+
+.contact p {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.btn {
+    width: 40%;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 0 15px;
+    padding-left: 10px;
+    position: relative;
+    left: 100px;
+}
+
+.submit {
+    width: 40%;
+    height: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffa64d;
+    border: 2px solid #ffa64d;
+    border-radius: 10px;
+    box-shadow: 0 5px #ff7f00;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    left: 380px;
+}
+
+.submit:active {
+    position: relative;
+    box-shadow: none;
+    top: 55px;
+}
+
+footer {
+    text-align: center;
+    margin: 5px 0;
+}
+
